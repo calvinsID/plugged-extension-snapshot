@@ -1,0 +1,113 @@
+.plugged__watched_item {
+  width: 27%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3em;
+}
+
+@keyframes animatezoom {
+  from  { transform:scale(0)}
+  to  { transform:scale(1)}
+}
+
+.plugged__watched_item__shadow {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(200,200,200,1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(200,200,200,1);
+  box-shadow: 0px 0px 5px 0px rgba(200,200,200,1);
+}
+
+.plugged__watched_item__hover {
+  box-shadow: 0 5px 15px 0 rgba(200,200,200,1);
+  -webkit-box-shadow: 0 5px 15px 0 rgba(200,200,200,1);
+  -webkit-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
+  -moz-transform: none;
+  cursor: pointer;
+}
+
+.plugged__watched_item__expired {
+  background-color: #fbf2d4;
+}
+
+.plugged__watched_item__expired_img {
+  filter: brightness(90%);
+}
+
+.plugged__ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.plugged__watched_item__merchant {
+  font-size: 11px;
+  padding-left: 0.3em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.plugged__watched_item__image_container {
+  width: 100%;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plugged__watched_item__picture {
+  width: auto;
+  max-width:100%;
+  height: auto;
+  max-height: 125px;
+  padding-bottom: 0.5em;
+}
+
+.plugged__watched_item__name {
+  width: auto;
+  max-width: 100%;
+  font-size: 11px;
+  padding-left: 0.3em;
+  padding-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.plugged__watched_item__prices {
+  padding-left: 0.2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plugged__watched_item__current_price {
+  color: #5e93d1;
+  font-size: 11px;
+  padding-right: 0.5em;
+}
+
+.plugged__watched_item__retail_price {
+  color: gray;
+  font-size: 11px;
+}
+
+.plugged__strikethrough {
+  position: relative;
+}
+
+.plugged__strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}

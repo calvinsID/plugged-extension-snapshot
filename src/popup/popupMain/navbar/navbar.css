@@ -1,0 +1,87 @@
+.plugged__popup__navbar {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(231, 231, 231);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 6px;
+}
+
+.plugged__popup__navbar_icon {
+  width: 20px;
+  fill: black;
+  vertical-align: middle;
+}
+
+.plugged__popup__navbar_display_pic {
+  width: 20px;
+  border-radius: 20px;
+  border: 1px solid #e7e7e7;
+}
+
+.plugged__popup__navbar_button_clicked {
+  background-color: rgb(231, 231, 231) !important;
+}
+
+.plugged__popup__navbar_button {
+  height: 100%;
+  width: inherit;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+
+.plugged__popup__navbar_button:hover {
+  background-color: #F8F8F8;
+}
+
+/* Tooltip text */
+.plugged__popup__navbar_button .plugged__popup__navbar_title {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 6px;
+  width: 75px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 90%;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.plugged__popup__navbar_button .plugged__popup__navbar_title::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.plugged__popup__navbar_button:hover .plugged__popup__navbar_title {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,80 @@
+.plugged__popup__discover_sub_page {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 120px 0 0 10px;
+}
+
+.plugged__popup__discover_sub_page_newsfeed {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 0 0 0;
+}
+
+.plugged__popup__discover_sub_page_search {
+  padding: 75px 10px 0 10px;
+}
+
+.plugged__popup__discover_sub_page_search_center {
+  text-align: center;
+}
+
+.plugged__popup__discover_sub_page_no_results {
+  font-size: 12px;
+}
+
+.plugged__popup__discover_sub_page_container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.plugged__popup__discover_sub_page_loading {
+  max-width: 30px;
+}
+
+.plugged__popup__discover_sub_page_friends {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.plugged__popup__discover_sub_page_friends_title {
+  margin: 20px;
+  color: #606060;
+  font-size: 14px;
+}
+
+.plugged__popup__load_homefeed_button {
+  width: 100%;
+  height: 3em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5em;
+  border: 1px solid #e7e7e7;
+}
+
+.plugged__popup__load_homefeed_button:focus {
+  outline: 0;
+}
+
+.plugged__popup__load_homefeed_button_div {
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 0.45em;
+}
+
+.plugged__popup__load_homefeed_button_div_all {
+  width: auto;
+  margin: 10px;
+  padding: 0;
+}
+
+.plugged__popup__empty_state_container {
+  text-align: center;
+  padding: 30px 40px 30px 30px;
+}
+
+.plugged__popup__empty_state {
+  color: #606060;
+  font-size: 14px;
+  line-height: 1.3;
+  margin-top: 1.5em;
+}

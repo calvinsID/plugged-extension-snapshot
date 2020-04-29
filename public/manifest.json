@@ -1,0 +1,56 @@
+{
+  "short_name": "Plugged - Price Tracker for Stores in Canada",
+  "name": "Plugged - Price Tracker for Stores in Canada",
+  "description": "Price Tracker - Save and monitor products while online shopping in Canada to receive notifications of price drops.",
+  "version": "0.0.0.25",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["/static/js/helperFunctions.js", "app/background.js"]
+  },
+  "browser_action": {},
+  "content_scripts" : [
+    {
+      "matches": [ "<all_urls>" ],
+      "css": ["/static/css/app.css"],
+      "js": ["/static/js/popup.js"]
+    },
+    {
+      "matches": [ "<all_urls>" ],
+      "css": ["/static/css/pluggedButton.css"],
+      "js": ["/static/js/pluggedButton.js"]
+    },
+    {
+      "matches": [ "<all_urls>" ],
+      "js": ["/static/js/pluggedButtonMulti.js"]
+    }
+  ],
+  "web_accessible_resources":[
+    "/static/css/popup.css"
+  ],
+  "content_security_policy":"script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk=' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'",
+  "permissions": [
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "<all_urls>"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "http://localhost:3000/",
+      "http://localhost:3000/*",
+      "https://joinplugged.ca/",
+      "https://joinplugged.ca/*",
+      "https://www.joinplugged.ca/",
+      "https://www.joinplugged.ca/*",
+      "https://api.joinplugged.ca/",
+      "https://api.joinplugged.ca/*"
+    ]
+  },
+  "icons": {
+    "16": "/favicons/favicon16x16.png",
+    "32": "/favicons/favicon32x32.png",
+    "48": "/favicons/favicon96x96.png",
+    "96": "/favicons/favicon96x96.png",
+    "144": "/favicons/favicon144x144.png"
+  }
+}

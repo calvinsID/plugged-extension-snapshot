@@ -1,0 +1,190 @@
+.plugged__item_modal__backdrop {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.3);
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plugged__item_modal {
+  background-color: #fff;
+  border-radius: 0.3em;
+  width: 100%;
+  text-align: center;
+  max-height: 100%;
+}
+
+.plugged__item_modal__corner_icon {
+  position: relative;
+  float: right;
+}
+
+.plugged__item_modal__close_icon {
+  width: 1.2em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.plugged__item_modal__expired {
+  color: red;
+  font-size: 12px;
+  padding-bottom: 0.3em;
+}
+
+.plugged__item_modal__expired_link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.plugged__item_modal__image {
+  max-height: 10em;
+  max-width: 10em;
+  padding: 1.5em 0em 0.5em 1.5em;
+  cursor: pointer;
+}
+
+.plugged__item_modal__content {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: left;
+}
+
+.plugged__item_modal__product_name {
+  font-size: 13px;
+  padding-bottom: 0.3em;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.plugged__item_modal__merchant {
+  font-size: 10.5px;
+  color: gray;
+}
+
+.plugged__item_modal__prices {
+  display: flex;
+  font-size: 12px;
+  padding-bottom: 0.3em;
+}
+
+.plugged__item_modal__current_price {
+  padding-right: 0.5em;
+  color: #5e93d1;
+}
+
+.plugged__item_modal__retail_price {
+  color: gray;
+}
+
+.plugged__item_modal__button, .plugged__item_modal__button_disabled {
+  width: 100%;
+  height: 2.4em;
+  background-color: #5E93D1;
+  border-radius: .5em;
+  border: none;
+  color: #fafafa;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  margin-top: 1em;
+  font-family: 'Poppins',sans-serif!important;
+  font-weight: 500;
+}
+
+.plugged__item_modal__button:hover {
+  background-color: #7ea8da;
+}
+
+.plugged__item_modal__button.plugged__item_modal__remove_button {
+  background-color: #c26161;
+}
+
+.plugged__item_modal__button.plugged__item_modal__remove_button:hover {
+  background-color: #d39090;
+}
+
+.plugged__item_modal__button.plugged__item_modal__watch_button {
+  background-color: #79B880;
+}
+
+.plugged__item_modal__button.plugged__item_modal__watch_button:hover {
+  background-color: #A9D1AD;
+}
+
+.plugged__item_modal__no_margin {
+  margin-top: 0 !important;
+}
+
+@-webkit-keyframes plugged__fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes plugged__fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.plugged__fadeIn {
+  -webkit-animation-name: plugged__fadeIn;
+  animation-name: plugged__fadeIn;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+
+.plugged__ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.plugged__strikethrough {
+  position: relative;
+}
+
+.plugged__strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
+.plugged__item_modal__error {
+	font-size: 12px;
+	color: red;
+	overflow: hidden;
+  transition: all .5s ease-in-out;
+  height: 0;
+}
+
+.plugged__item_modal__error_fade_in {
+	height: 35px;
+	margin-top: 20px;
+}
+
+.plugged__item_modal__loading_gif {
+	width: 1.5em;
+	padding-left: 0.3em;
+	vertical-align: middle;
+}

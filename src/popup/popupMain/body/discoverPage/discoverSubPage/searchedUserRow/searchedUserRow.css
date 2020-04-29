@@ -1,0 +1,24 @@
+.plugged__popup__searched_user_row {
+  display: flex;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.plugged__popup__searched_user_row_picture {
+  width: 2.2em;
+  border-radius: 2.2em;
+  align-self: center;
+  border: 1px solid #d3d3d3;
+}
+
+.plugged__popup__searched_user_row_info {
+  display: flex;
+  flex-direction: column;
+  font-size: 11.5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 4em;
+  text-align: start;
+}

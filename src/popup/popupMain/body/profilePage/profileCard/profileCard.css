@@ -1,0 +1,108 @@
+.plugged__popup__profile_card {
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  padding: 1em;
+  flex-direction: column;
+}
+
+.plugged__popup__profile_info_container {
+  flex: 1;
+}
+
+.plugged__popup__profile_pic_container {
+  padding-bottom: 0.7em;
+}
+
+.plugged__popup__profile_pic_wrapper {
+  display: flex;
+}
+
+.plugged__popup__profile_pic {
+  width: 5em;
+  min-width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  display: block;
+}
+
+.plugged__popup__profile_email {
+  font-size: 11px;
+}
+
+.plugged__popup__profile_action_container {
+  display: flex;
+  margin-top: 0.7em;
+}
+
+.plugged__popup__profile_action_button {
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 33%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.plugged__popup__profile_action_button.plugged__popup__profile_action_button_first {
+  margin-left: 0;
+}
+
+.plugged__popup__profile_action_button.plugged__popup__profile_action_button_last {
+  margin-right: 0;
+}
+
+.plugged__popup__profile_info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.plugged__popup__profile_info_block {
+  width: 33.33%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.plugged__popup__profile_info_block_clickable {
+  cursor: pointer;
+}
+
+.plugged__popup__profile_info_number {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.plugged__popup__profile_info_description {
+  font-size: 11px;
+  color: rgba(0,0,0,.7);
+}
+
+.plugged__popup__profile_name {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.plugged__popup__edit_profile_btn {
+  width: 15.5em;
+  height: 2.2em;
+  background-color: #5E93D1;
+  border-radius: 0.5em;
+  color: rgb(250, 250, 250);
+  letter-spacing: 0.03em;
+  font-family: 'Poppins',sans-serif!important;
+}
+
+.plugged__ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

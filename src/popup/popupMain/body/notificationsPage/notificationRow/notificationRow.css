@@ -1,0 +1,39 @@
+.plugged__grid_row__long {
+  grid-template-columns: 1fr 6fr;
+  grid-gap: 10px;
+}
+
+.plugged__grid_row__short {
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-gap: 10px;
+}
+
+.plugged__notifications_page__row {
+  cursor: pointer;
+  align-items: center;
+  display: grid;
+}
+
+.plugged__notifications_page__row_profile_picture {
+  width: 2.5em;
+  border-radius: 2.5em;
+  align-self: center;
+  border: 1px solid #d3d3d3;
+}
+
+.plugged__notifications_page__row_product_picture {
+  width: 2.5em;
+  align-self: center;
+}
+
+.plugged__notifications_page__row_info {
+  font-size: 11.5px;
+}
+
+.plugged__notifications_page__action {
+  font-size: 11.5px;
+}
+
+.plugged__timestamp {
+  color: gray;
+}

@@ -1,0 +1,69 @@
+.plugged__liked_item {
+  display: inline-block;
+}
+
+.plugged__liked_item__username {
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.plugged__liked_item__merchant {
+  font-size: 10.5px;
+}
+
+.plugged__ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.plugged__liked_item__picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e7e7e7;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+}
+
+.plugged__liked_item__profile_pic {
+  width: 35px;
+  border-radius: 35px;
+  border: 1px solid #e7e7e7;
+  cursor: pointer;
+}
+
+.plugged__liked_item__profile_pic_container {
+  display: flex;
+  align-items: center;
+  padding: 7.5px;
+}
+
+.plugged__liked_item__header {
+  display: flex;
+  align-items: center;
+}
+
+.plugged__liked_item__description_container {
+  padding: 13px 20px 13px 20px;
+}
+
+.plugged__liked_item__description {
+  font-size: 11px;
+}
+
+.plugged__liked_item__bold_username {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.plugged__liked_item__prices {
+  padding-top: 5px;
+}
+
+.plugged__expanded_timestamp {
+  color: gray;
+  font-size: 11px;
+}

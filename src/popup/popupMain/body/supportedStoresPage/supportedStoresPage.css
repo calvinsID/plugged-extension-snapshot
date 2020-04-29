@@ -1,0 +1,46 @@
+.plugged__popup__supported_stores_nav_bar {
+  background-color:white;
+  height: 2.5em;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+}
+
+.plugged__popup__supported_stores_profile {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  padding-right: 1em;
+  color: #5e93d1;
+  font-weight: 500;
+}
+
+.plugged__popup__supported_stores_home {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 1em;
+  color: #5e93d1;
+  font-weight: 500;
+}
+
+.plugged__popup__supported_stores_title {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.plugged__popup__supported_stores_cursor {
+  cursor: pointer;
+}
+
+.plugged__popup__supported_store_row_container {
+  padding-left: 1em;
+  padding-top: 1em;
+}

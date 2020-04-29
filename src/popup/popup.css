@@ -1,0 +1,12 @@
+/* src/popup/popup.css */
+
+html, body, .frame-root, .my-extension {
+  height: 100%;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: unset;
+}

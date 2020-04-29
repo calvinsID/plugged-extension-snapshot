@@ -1,0 +1,90 @@
+.plugged__popup__discover_nav_bar {
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 0 10px;
+  width: -webkit-fill-available;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-box-shadow: rgba(0,0,0,.05) 0 5px 6px;
+  box-shadow: 0 5px 6px rgba(0,0,0,.05);
+}
+
+.plugged__popup__discover_nav_bar_search_container {
+  display: flex;
+  border: 1px solid #d3d3d3;
+  height: 2.3em;
+  border-radius: 5px;
+  margin: 7.5px 0 12.5px 0;
+  -webkit-box-shadow: rgba(0,0,0,.05) 0 2px 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.05);
+}
+
+.plugged__popup__discover_nav_bar_search_container_focused {
+  -webkit-box-shadow: rgba(0,0,0,.2) 0 2px 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+.plugged__popup__discover_nav_bar_search_icon {
+  width: 18px;
+  padding: 0 5px 0 10px;
+}
+
+.plugged__popup__discover_nav_bar_search_icon_back {
+  cursor: pointer;
+}
+
+.plugged__popup__discover_nav_bar_search {
+  flex: auto;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  margin: 0.5em;
+}
+
+.plugged__popup__discover_nav_bar_options_container {
+  display: flex;
+  height: 2.5em;
+}
+
+.plugged__popup__discover_nav_bar_option {
+  width: 50%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 10.5px;
+  border: 1px solid #d3d3d3;
+  height: 2em;
+  min-height: 23px;
+}
+
+.plugged__popup__discover_nav_bar_option_left {
+  margin: 0 0 5px 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.plugged__popup__discover_nav_bar_option_right {
+  margin: 0 0 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.plugged__popup__discover_navbar_icon {
+  width: 1.5em;
+  padding-right: 0.5em;
+  vertical-align: middle;
+}
+
+.plugged__popup__discover_btn_selected {
+  background-color: #d3d3d3;
+}
+
+.plugged__popup__discover_navbar_btn_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
